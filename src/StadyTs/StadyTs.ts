@@ -32,21 +32,21 @@ const startNewServer: PropsFunction = (
 
 startNewServer(serverConfig.protocol, serverConfig.port, serverConfig.role);
 
-// ============================================= interface
-interface IProtocol {
-  protocol: "http" | "https";
-}
-interface IPort {
-  port: 3000 | 3001;
-}
-interface IRole {
-  role: string;
-}
+// // ============================================= interface
+// interface IProtocol {
+//   protocol: "http" | "https";
+// }
+// interface IPort {
+//   port: 3000 | 3001;
+// }
+// interface IRole {
+//   role: string;
+// }
 
-interface IServerConfig extends IProtocol, IPort, IRole {}
+// interface IServerConfig extends IProtocol, IPort, IRole {}
 
-const serverNewConfig: IServerConfig = {
-  protocol: "http",
-  port: 3000,
-  role: "admin",
-};
+// const serverNewConfig: IServerConfig = {
+//   protocol: "http",
+//   port: 3000,
+//   role: "admin",
+// };
